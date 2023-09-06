@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: rgb(196, 238, 255);
+    height: 806px;
+    /* width: 1300px; */
+}
+.head{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+}
+.fa-solid{
+    position: absolute;
+    top: 52px;
+    left:100px;
+}
+ul{
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.head-searchbox{
+    position: absolute;
+    top: 39px;
+    right: 100px;
+    width: 150px;
+    height: 30px;
+}
+.head-botton{
+    position: absolute;
+    top: 39px;
+    right: 20px;
+    width: 60px;
+    height: 30px;
+    background-color: green;
+}
+
+.content{
+    position: absolute;
+    top:110px;
+    height:600px ;
+    width: 700px;
+}
+.content-div{
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+#text{
+    position: absolute;
+    top: 500px;
+}
+span{
+    color:green;
+}
+.right{
+    position: absolute;
+    top: 120px;
+    left: 700px;
+    height: 600px;
+    
+}
+.photo{
+    position: absolute;
+    top:5px;
+    left:120px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 150px;
+}
+.right-button{
+    width: 90px;
+    background-color: green;
+    position: relative;
+    top:310px;
+    left:225px;
+    height: 30px;
+}
+.footer{
+    position: absolute;
+    top: 706px;
+    height: 100px;
+    width: 100%;
+    padding: 40px;
+}
+.footer-icon{
+    position: absolute;
+    top: 35px;
+    left: 1000px;
+}
